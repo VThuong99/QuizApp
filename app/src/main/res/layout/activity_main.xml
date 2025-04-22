@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUIZ APP"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textColor="#00AA00" />
+
+    <Button
+        android:id="@+id/btnTakeQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take Quiz"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#00AA00"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3b5998"
+            android:text="Facebook Login"
+            android:textColor="#FFFFFF" />
+
+        <Space android:layout_width="16dp" android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#db4437"
+            android:text="Google Login"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>
